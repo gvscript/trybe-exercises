@@ -2,26 +2,26 @@
 
 Antes de começar, crie uma nova pasta e, dentro dela, crie um pacote Node.js com o npm init chamado my-scripts. Realize os exercícios dentro desse pacote.
 
-1 - Crie um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.
 
-A fórmula para calcular o IMC é peso / altura ^ 2.
-Comece criando um novo pacote node com npm init e respondendo às perguntas do npm.
-Por enquanto, não se preocupe em pedir input da pessoa usuária. Utilize valores fixos para peso e altura.
-Armazene o script no arquivo imc.js.
-2 - Agora, permita que o script seja executado através do comando npm run imc
+#### 1 - Crie um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.
+- [ ] A fórmula para calcular o IMC é peso / altura ^ 2.
+- [ ] Comece criando um novo pacote node com npm init e respondendo às perguntas do npm.
+- [ ] Por enquanto, não se preocupe em pedir input da pessoa usuária. Utilize valores fixos para peso e altura.
+- [ ] Armazene o script no arquivo imc.js.
+ 
+#### 2 - Agora, permita que o script seja executado através do comando npm run imc
+- [ ] O novo script criado deve conter o comando que chama o node para executar o arquivo imc.js.
 
-O novo script criado deve conter o comando que chama o node para executar o arquivo imc.js.
-3 - Chegou a hora de tornar nosso script mais interativo! Vamos adicionar input de quem usa.
+#### 3 - Chegou a hora de tornar nosso script mais interativo! Vamos adicionar input de quem usa.
+- [ ] Você já utilizou o pacote readline-sync para esse fim. Que tal utilizar o mesmo pacote?
+- [ ] Substitua os valores fixos de peso e altura por dados informados pela pessoa ao responder as perguntas "Qual seu peso?" e "Qual sua altura?" no terminal.
 
-Você já utilizou o pacote readline-sync para esse fim. Que tal utilizar o mesmo pacote?
-Substitua os valores fixos de peso e altura por dados informados pela pessoa ao responder as perguntas "Qual seu peso?" e "Qual sua altura?" no terminal.
-4 - Agora temos um problema: peso não é um número inteiro! Isso quer dizer que precisamos mudar um pouco a forma como solicitamos o input desse dado.
+#### 4 - Agora temos um problema: peso não é um número inteiro! Isso quer dizer que precisamos mudar um pouco a forma como solicitamos o input desse dado.
+- [ ] O pacote readline-sync possui uma função específica para tratar esses casos. Consulte a documentação do pacote e encontre o método adequado para realizar input de floats.
+- [ ] Encontrou a função? Show! Agora utilize-a para solicitar o input de peso.
 
-O pacote readline-sync possui uma função específica para tratar esses casos. Consulte a documentação do pacote e encontre o método adequado para realizar input de floats.
-Encontrou a função? Show! Agora utilize-a para solicitar o input de peso.
-5 - Vamos sofisticar um pouco mais nosso script. Além de imprimir o IMC na tela, imprima também em qual categoria da tabela abaixo aquele IMC se enquadra:
-
-Considere a seguinte tabela para classificar a situação do IMC:
+#### 5 - Vamos sofisticar um pouco mais nosso script. Além de imprimir o IMC na tela, imprima também em qual categoria da tabela abaixo aquele IMC se enquadra:
+- [ ] Considere a seguinte tabela para classificar a situação do IMC:
 IMC	Situação
 Abaixo de 18,5	Abaixo do peso (magreza)
 Entre 18,5 e 24,9	Peso normal

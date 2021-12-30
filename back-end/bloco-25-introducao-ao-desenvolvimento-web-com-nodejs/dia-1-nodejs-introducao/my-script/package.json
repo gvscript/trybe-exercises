@@ -4,6 +4,7 @@
   "description": "Trybe/turma12 exercício do bloco 25 - introdução ao desenvolvimento wed com NodeJs/ dia 1 - NodeJs introdução",
   "main": "index.js",
   "scripts": {
+    "imc": "node imc.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gabriel Viana",

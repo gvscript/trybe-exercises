@@ -1,0 +1,11 @@
+{
+  "name": "my-script",
+  "version": "1.0.0",
+  "description": "Trybe/turma12 exercício do bloco 25 - introdução ao desenvolvimento wed com NodeJs/ dia 1 - NodeJs introdução",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Viana",
+  "license": "ISC"
+}
